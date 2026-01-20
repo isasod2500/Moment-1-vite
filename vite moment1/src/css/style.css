@@ -30,10 +30,100 @@ body {
     text-decoration: underline;
   }
 
+  .index-heading {
+    text-align: center;
+    border-radius: 15px;
+    background-color:  rgba(0, 255, 255, 0.703);
+  }
+
   .index-article {
     border-radius: 10px;
     padding: 10px;
     background-color: rgba(0, 255, 255, 0.703);
+  }
+
+  #index-footer {
+    margin-top: 10vh;
+  }
+
+  .index-footer-nav {
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    grid-template-columns: 3fr 3fr 3fr;
+    height: 10vh;
+    border-radius: 15px;
+    background-color:  rgba(0, 255, 255, 0.703);
+  }
+  
+
+  #photos-header {
+    background-color: #00FF00;
+    height: 10vh;
+    border-radius: 0px 0px 10px 10px;
+  }
+
+  #photos-nav {
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    grid-template-columns: 3fr 3fr 3fr;
+    height: 100%;
+    
+  }
+
+  #photos-nav a {
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+  }#photos-nav a:hover {
+    text-decoration: underline;
+  }
+
+  .photos-article {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgba(0, 255, 255, 0.703);
+    align-items: center;
+  }
+
+  .photos-article img {
+   margin-bottom: 25px;
+    margin-top: -15px;
+  }
+
+  .inShock {
+    width: 50%;
+    height: auto;
+  }
+
+  .courage {
+    width: 50%;
+    height: auto;
+  }
+
+  .maybeworking {
+    width: 50%;
+    height: auto;
+  }
+
+  .notworking {
+    width: 50%;
+    height: auto;
+  }
+
+  .didntwork {
+    width: 50%;
+    height: auto;
+  }
+
+  .itworks {
+    width: 50%; 
+    height: auto;
   }
 
 }
