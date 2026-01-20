@@ -23,7 +23,7 @@ export default defineConfig({
             },
 
             webp: {
-                quality: 70
+                quality: 95
             },
             avif: {
                 quality: 60
